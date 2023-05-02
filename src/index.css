@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Archivo ExtraBold';
+  src: url('./assets/Archivo-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Archivo LightItalic';
+  src: url('./assets/Archivo-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url('./assets/OpenSans-Regular.ttf') format('truetype');
+}
