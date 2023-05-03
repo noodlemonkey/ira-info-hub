@@ -4,7 +4,7 @@ import referenceData from './reference-data';
 
 const App = () => {
   return (
-    <div className="h-screen w-screen flex justify-center items-center bg-tertiary-green xl:bg-offwhite">
+    <div className="h-[100dvh] w-screen flex justify-center items-center bg-tertiary-green xl:bg-offwhite">
       <div className="grid grid-rows-[auto_full] h-[calc(100dvh-10px)] w-[calc(100dvw-10px)] bg-offwhite border rounded-lg border-tertiary-green p-3 overflow-hidden xl:border-4 xl:w-[80%] xl:h-[90%] xl:p-5">
         <header className="flex flex-col justify-center items-center pb-3">
           <h1 className="font-archivo-eb text-primary-green text-2xl">
