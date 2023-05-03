@@ -20,30 +20,30 @@ const dataArray = [
   },
   {
     title: 'Contact Your Regional Clean Energy Hub',
-    description: `12 Regional Clean Energy Hubs to serve as centers of outreach, awareness, and education and help foster residents' participation, especially those in underserved or otherwise disadvantaged communities, in New York's clean energy transition.`,
+    description: `New York plans to establish 12 Regional Clean Energy Hubs that will act as focal points for educating and raising awareness among residents about clean energy. The aim is to encourage participation in the clean energy transition, particularly among people in underserved or disadvantaged communities.`,
     link: 'https://www.nyserda.ny.gov/All-Programs/Regional-Clean-Energy-Hubs',
   },
   {
-    title: '',
-    description: '',
-    link: '',
+    title: 'Learn About Heat Pumps',
+    description: `Using NYSERDA's resources, learn about heating and cooling your home with heat pumps and find a qualified clean heat contractor.`,
+    link: 'https://www.nyserda.ny.gov/All-Programs/Heat-Pump-Program',
   },
 ];
 
 const App = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center bg-tertiary-green">
-      <div className="h-[calc(100dvh-10px)] w-[calc(100dvw-10px)] bg-white border rounded-lg border-tertiary-green p-3 divide-y-2 overflow-hidden">
+      <div className="grid grid-rows-[auto_full] h-[calc(100dvh-10px)] w-[calc(100dvw-10px)] bg-white border rounded-lg border-tertiary-green p-3 divide-y-2 overflow-hidden">
         <header className="flex flex-col justify-center items-center pb-3">
           <h1 className="font-archivo-eb text-primary-green text-2xl">
-            IRA Hub
+            IRA Info Hub
           </h1>
           <h2 className="font-archivo-li text-md text-secondary-green text-center">
-            Here are some helpful links to guide you through the ways in which
-            the Inflation Reduction Act can benefit New Yorkers.
+            Here are some helpful links to guide New Yorkers through the ways in
+            which the Inflation Reduction Act can benefit you.
           </h2>
         </header>
-        <div className="no-scrollbar h-full flex flex-col gap-3 pt-3 overflow-y-auto">
+        <div className="no-scrollbar h-full flex flex-col gap-3 pt-3 overflow-auto">
           {dataArray.map((data) => (
             <InfoBox data={data} />
           ))}
