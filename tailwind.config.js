@@ -7,6 +7,7 @@ export default {
         'primary-green': '#0A3200',
         'secondary-green': '#727E1B',
         'tertiary-green': '#9CAE23',
+        'quaternary-green': '#CAD583',
       },
       fontFamily: {
         'archivo-eb': ['Archivo ExtraBold', 'regular'],
