@@ -6,6 +6,12 @@ const guideData = [
     link: 'https://www.rewiringamerica.org/app/ira-calculator',
   },
   {
+    title: 'Guide to the Inflation Reduction Act',
+    description:
+      'Probably the most readable comprehensive source on the Inflation Reduction Act including many examples for different households. Written by Rewiring America.',
+    link: 'https://www.rewiringamerica.org/IRAguide',
+  },
+  {
     title: 'Free Energy Audit',
     description:
       'New York State Energy Research and Development Authority (NYSERDA) provides you with a top-to-bottom look at where your home is wasting energy.',

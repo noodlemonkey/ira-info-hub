@@ -1,5 +1,6 @@
 import InfoBox from './components/InfoBox';
 import guideData from './guide-data';
+import referenceData from './reference-data';
 
 const App = () => {
   return (
@@ -13,10 +14,18 @@ const App = () => {
             Here are some helpful links to guide New Yorkers through the ways in
             which the Inflation Reduction Act can benefit you.
           </h2>
+          <hr className="w-[80%] mt-2 border-t border-solid border-quaternary-green" />
         </header>
         <div className="scroll h-full flex flex-col items-center gap-3 pt-3 overflow-auto xl:gap-4">
+          <h3 className="font-archivo-eb text-secondary-green">Get Started:</h3>
           {guideData.map((data, i) => (
             <InfoBox key={i + 'guides'} data={data} />
+          ))}
+          <h3 className="font-archivo-eb text-secondary-green pt-6">
+            Further Reference:
+          </h3>
+          {referenceData.map((data, i) => (
+            <InfoBox key={i + 'references'} data={data} />
           ))}
         </div>
       </div>
