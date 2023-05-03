@@ -41,7 +41,7 @@ const guideData = [
   },
   {
     title: 'Contact Your Regional Clean Energy Hub',
-    description: `New York plans to establish 12 Regional Clean Energy Hubs that will act as focal points for educating and raising awareness among residents about clean energy. The aim is to encourage participation in the clean energy transition, particularly among people in underserved or disadvantaged communities. Get in touch with your local hub now!`,
+    description: `New York plans to set up 12 Regional Clean Energy Hubs to raise awareness and educate residents about clean energy, with a focus on underserved and disadvantaged communities, in order to encourage participation in the clean energy transition. Contact your local hub to learn more.`,
     link: 'https://www.nyserda.ny.gov/All-Programs/Regional-Clean-Energy-Hubs',
   },
 ];

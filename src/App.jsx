@@ -10,7 +10,7 @@ const App = () => {
           <h1 className="font-archivo-eb text-primary-green text-2xl">
             IRA Info Hub
           </h1>
-          <h2 className="font-archivo-li text-md text-secondary-green text-center">
+          <h2 className="font-archivo-li text-md text-secondary-green text-center md:text-lg">
             Here are some helpful links to guide New Yorkers through the ways in
             which the Inflation Reduction Act can benefit you.
           </h2>
