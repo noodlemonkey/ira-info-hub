@@ -8,6 +8,7 @@ export default {
         'secondary-green': '#727E1B',
         'tertiary-green': '#9CAE23',
         'quaternary-green': '#CAD583',
+        offwhite: '#FDFCF8',
       },
       fontFamily: {
         'archivo-eb': ['Archivo ExtraBold', 'regular'],
