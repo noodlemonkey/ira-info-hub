@@ -3,8 +3,8 @@ import InfoBox from './components/InfoBox';
 const dataArray = [
   {
     title: 'IRA Savings Calculator',
-    description: `Rewiring America's app to estimate what benefits you may be eligible to
-  receive.`,
+    description: `Rewiring America has published an IRA Savings Calculator that can
+    get you started on figuring out what you may be eligible for.`,
     link: 'https://www.rewiringamerica.org/app/ira-calculator',
   },
   {
