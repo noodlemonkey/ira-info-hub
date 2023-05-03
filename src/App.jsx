@@ -4,7 +4,7 @@ const dataArray = [
   {
     title: 'IRA Savings Calculator',
     description: `Rewiring America has published an IRA Savings Calculator that can
-    get you started on figuring out what you may be eligible for.`,
+    get you started on figuring out what savings you may be eligible for.`,
     link: 'https://www.rewiringamerica.org/app/ira-calculator',
   },
   {
@@ -55,7 +55,7 @@ const App = () => {
             which the Inflation Reduction Act can benefit you.
           </h2>
         </header>
-        <div className="no-scrollbar h-full flex flex-col gap-3 pt-3 overflow-auto">
+        <div className="no-scrollbar h-full flex flex-col items-center gap-3 pt-3 overflow-auto xl:gap-4">
           {dataArray.map((data) => (
             <InfoBox data={data} />
           ))}
