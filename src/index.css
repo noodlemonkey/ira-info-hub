@@ -17,11 +17,6 @@
   src: url('./assets/Archivo-Regular.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'OpenSans Regular';
-  src: url('./assets/OpenSans-Regular.ttf') format('truetype');
-}
-
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;

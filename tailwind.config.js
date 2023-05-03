@@ -12,7 +12,6 @@ export default {
         'archivo-eb': ['Archivo ExtraBold', 'regular'],
         'archivo-li': ['Archivo LightItalic', 'italic'],
         archivo: ['Archivo Regular', 'regular'],
-        opensans: ['OpenSans Regular', 'regular'],
       },
     },
   },
