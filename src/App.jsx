@@ -28,6 +28,18 @@ const dataArray = [
     description: `Using NYSERDA's resources, learn about heating and cooling your home with heat pumps and find a qualified clean heat contractor.`,
     link: 'https://www.nyserda.ny.gov/All-Programs/Heat-Pump-Program',
   },
+  {
+    title: 'New Vehicle Tax Credit Eligibility',
+    description:
+      'Learn which newly purchased vehicles may be eligible for a tax credit of up to $7,500.',
+    link: 'https://fueleconomy.gov/feg/tax2023.shtml',
+  },
+  {
+    title: 'Used Vehicle Tax Credit Eligibility',
+    description:
+      'Learn which pre-owned vehicles purchased on or after January 1, 2023 are eligible for a federal income tax credit.',
+    link: 'https://fueleconomy.gov/feg/taxused.shtml',
+  },
 ];
 
 const App = () => {
