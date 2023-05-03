@@ -16,7 +16,7 @@ const App = () => {
           </h2>
           <hr className="w-[80%] mt-2 border-t border-solid border-quaternary-green" />
         </header>
-        <div className="scroll h-full flex flex-col items-center gap-3 pt-3 overflow-auto xl:gap-4">
+        <div className="scroll h-full flex flex-col items-center gap-3 pt-3 overflow-auto z-50 xl:gap-4">
           <h3 className="font-archivo-eb text-secondary-green text-lg">
             Get Started:
           </h3>
