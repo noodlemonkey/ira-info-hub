@@ -19,11 +19,6 @@ const dataArray = [
     link: 'https://nyforcleanpower.org/cleanenergycoaching/',
   },
   {
-    title: 'Contact Your Regional Clean Energy Hub',
-    description: `New York plans to establish 12 Regional Clean Energy Hubs that will act as focal points for educating and raising awareness among residents about clean energy. The aim is to encourage participation in the clean energy transition, particularly among people in underserved or disadvantaged communities.`,
-    link: 'https://www.nyserda.ny.gov/All-Programs/Regional-Clean-Energy-Hubs',
-  },
-  {
     title: 'Learn About Heat Pumps',
     description: `Using NYSERDA's resources, learn about heating and cooling your home with heat pumps and find a qualified clean heat contractor.`,
     link: 'https://www.nyserda.ny.gov/All-Programs/Heat-Pump-Program',
@@ -39,6 +34,11 @@ const dataArray = [
     description:
       'Learn which pre-owned vehicles purchased on or after January 1, 2023 are eligible for a federal income tax credit.',
     link: 'https://fueleconomy.gov/feg/taxused.shtml',
+  },
+  {
+    title: 'Contact Your Regional Clean Energy Hub',
+    description: `New York plans to establish 12 Regional Clean Energy Hubs that will act as focal points for educating and raising awareness among residents about clean energy. The aim is to encourage participation in the clean energy transition, particularly among people in underserved or disadvantaged communities. Get in touch with your local hub now!`,
+    link: 'https://www.nyserda.ny.gov/All-Programs/Regional-Clean-Energy-Hubs',
   },
 ];
 
