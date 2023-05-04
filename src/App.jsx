@@ -13,7 +13,7 @@ const App = () => {
           </h1>
           <h2 className="font-archivo-li text-md text-secondary-green text-center md:text-lg">
             Here are some helpful links to guide you through the ways in which
-            the Inflation Reduction Act can benefit New Yorkers.
+            the Inflation Reduction Act can benefit you.
           </h2>
           <hr className="w-[80%] mt-2 border-t border-solid border-quaternary-green" />
         </header>

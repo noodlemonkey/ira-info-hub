@@ -26,7 +26,7 @@ const guideData = [
   {
     title: 'Database of State Incentives for Renewables & Efficiency (DSIRE)',
     description:
-      'DSIRE is a comprehensive source of information on state, local, utility, and federal incentives and policies that promote renewable energy and energy efficiency in the United States.',
+      'DSIRE is a one-stop-shop for information on renewable energy and energy efficiency incentives and policies at the state, local, utility, and federal levels in the US. You can use it to search for policies and incentives available in your state.',
     link: 'https://www.dsireusa.org/',
   },
 ];
