@@ -1,5 +1,6 @@
 import InfoBox from './components/InfoBox';
 import guideData from './guide-data';
+import nyResources from './ny-resources';
 import referenceData from './reference-data';
 
 const App = () => {
@@ -16,12 +17,25 @@ const App = () => {
           </h2>
           <hr className="w-[80%] mt-2 border-t border-solid border-quaternary-green" />
         </header>
-        <div className="scroll h-full flex flex-col items-center gap-3 pt-3 overflow-auto z-50 xl:gap-4">
+        <div className="scroll h-full flex flex-col items-center text-center gap-3 pt-3 overflow-auto z-50 xl:gap-4">
           <h3 className="font-archivo-eb text-secondary-green text-lg">
             Get Started:
           </h3>
           {guideData.map((data, i) => (
             <InfoBox key={i + 'guides'} data={data} />
+          ))}
+          <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
+          <h3 className="font-archivo-eb text-secondary-green pt-6 text-lg">
+            New York Resources:
+          </h3>
+          {nyResources.general.map((data, i) => (
+            <InfoBox key={i + 'ny'} data={data} />
+          ))}
+          <h4 className="font-archivo text-secondary-green pt-6 text-lg">
+            More on NYSERDA Energy Savings Programs for Consumers:
+          </h4>
+          {nyResources.nyserda.map((data, i) => (
+            <InfoBox key={i + 'nyserda'} data={data} />
           ))}
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
           <h3 className="font-archivo-eb text-secondary-green pt-6 text-lg">

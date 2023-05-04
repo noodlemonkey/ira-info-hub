@@ -12,22 +12,6 @@ const guideData = [
     link: 'https://www.rewiringamerica.org/IRAguide',
   },
   {
-    title: 'Free Energy Audit',
-    description:
-      'New York State Energy Research and Development Authority (NYSERDA) provides you with a top-to-bottom look at where your home is wasting energy.',
-    link: 'https://www.nyserda.ny.gov/All-Programs/Residential-Energy-Assessment-Programs',
-  },
-  {
-    title: 'Free Energy Coaches',
-    description: `New Yorkers for Clean Power has energy coaches that can help you answer your energy questions as well as answer questions you didn't know you had.`,
-    link: 'https://nyforcleanpower.org/cleanenergycoaching/',
-  },
-  {
-    title: 'Learn About Heat Pumps',
-    description: `Using NYSERDA's resources, learn about heating and cooling your home with heat pumps and find a qualified clean heat contractor.`,
-    link: 'https://www.nyserda.ny.gov/All-Programs/Heat-Pump-Program',
-  },
-  {
     title: 'New Vehicle Tax Credit Eligibility',
     description:
       'Learn which newly purchased vehicles may be eligible for a tax credit of up to $7,500.',
@@ -40,9 +24,10 @@ const guideData = [
     link: 'https://fueleconomy.gov/feg/taxused.shtml',
   },
   {
-    title: 'Contact Your Regional Clean Energy Hub',
-    description: `New York plans to set up 12 Regional Clean Energy Hubs to raise awareness and educate residents about clean energy, with a focus on underserved and disadvantaged communities, in order to encourage participation in the clean energy transition. Contact your local hub to learn more.`,
-    link: 'https://www.nyserda.ny.gov/All-Programs/Regional-Clean-Energy-Hubs',
+    title: 'Database of State Incentives for Renewables & Efficiency (DSIRE)',
+    description:
+      'DSIRE is a comprehensive source of information on state, local, utility, and federal incentives and policies that promote renewable energy and energy efficiency in the United States.',
+    link: 'https://www.dsireusa.org/',
   },
 ];
 
