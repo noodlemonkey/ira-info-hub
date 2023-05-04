@@ -1,3 +1,5 @@
+import Header from './components/Header';
+import Section from './components/Section';
 import InfoBox from './components/InfoBox';
 import guideData from './guide-data';
 import nyResources from './ny-resources';
@@ -7,43 +9,34 @@ const App = () => {
   return (
     <div className="h-[100dvh] w-screen flex justify-center items-center bg-tertiary-green xl:bg-offwhite">
       <div className="grid grid-rows-[auto_full] h-[calc(100dvh-10px)] w-[calc(100dvw-10px)] bg-offwhite border rounded-lg border-tertiary-green p-3 overflow-hidden xl:border-4 xl:w-[80%] xl:h-[90%] xl:p-5">
-        <header className="flex flex-col justify-center items-center pb-3">
-          <h1 className="font-archivo-eb text-primary-green text-2xl">
-            IRA Info Hub
-          </h1>
-          <h2 className="font-archivo-li text-md text-secondary-green text-center md:text-lg">
-            Here are some helpful links to guide you through the ways in which
-            the Inflation Reduction Act can benefit you.
-          </h2>
-          <hr className="w-[80%] mt-2 border-t border-solid border-quaternary-green" />
-        </header>
+        <Header />
         <div className="scroll h-full flex flex-col items-center text-center gap-3 pt-3 overflow-auto z-50 xl:gap-4">
-          <h3 className="font-archivo-eb text-secondary-green text-lg">
-            Get Started:
-          </h3>
-          {guideData.map((data, i) => (
-            <InfoBox key={i + 'guides'} data={data} />
-          ))}
+          <Section
+            title="Get Started:"
+            array={guideData}
+            section="guides"
+            isSubSection={false}
+          />
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
-          <h3 className="font-archivo-eb text-secondary-green pt-6 text-lg">
-            New York Resources:
-          </h3>
-          {nyResources.general.map((data, i) => (
-            <InfoBox key={i + 'ny'} data={data} />
-          ))}
-          <h4 className="font-archivo text-secondary-green pt-6 text-lg">
-            More on NYSERDA Energy Savings Programs for Consumers:
-          </h4>
-          {nyResources.nyserda.map((data, i) => (
-            <InfoBox key={i + 'nyserda'} data={data} />
-          ))}
+          <Section
+            title="New York Resources:"
+            array={nyResources.general}
+            section="ny"
+            isSubSection={false}
+          />
+          <Section
+            title="More on NYSERDA Energy Savings Programs for Consumers:"
+            array={nyResources.nyserda}
+            section="nyserda"
+            isSubSection
+          />
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
-          <h3 className="font-archivo-eb text-secondary-green pt-6 text-lg">
-            Further Reference:
-          </h3>
-          {referenceData.map((data, i) => (
-            <InfoBox key={i + 'references'} data={data} />
-          ))}
+          <Section
+            title="Further Reference:"
+            array={referenceData}
+            section="references"
+            isSubSection={false}
+          />
         </div>
       </div>
     </div>
