@@ -18,19 +18,20 @@ const App = () => {
             isSubSection={false}
           />
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
-          <DropdownSection title="New York Resources " data={nyResources} />
-          {/* <Section
-            title="New York Resources:"
-            array={nyResources.general}
-            section="ny"
-            isSubSection={false}
-          />
-          <Section
-            title="More on NYSERDA Energy Savings Programs for Consumers:"
-            array={nyResources.nyserda}
-            section="nyserda"
-            isSubSection
-          /> */}
+          <DropdownSection title="New York Resources " data={nyResources}>
+            <Section
+              title=""
+              array={nyResources.general}
+              section="ny"
+              isSubSection
+            />
+            <Section
+              title="More on NYSERDA Energy Savings Programs for Consumers:"
+              array={nyResources.nyserda}
+              section="nyserda"
+              isSubSection
+            />
+          </DropdownSection>
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
           <Section
             title="Further Reference:"

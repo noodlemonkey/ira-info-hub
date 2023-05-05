@@ -4,19 +4,11 @@ import InfoBox from './InfoBox';
 import angledown from '../assets/angle-down.svg';
 import angleup from '../assets/angle-up.svg';
 
-const DropdownSection = ({ title, data }) => {
+const DropdownSection = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toRender = (
     <div className="flex flex-col gap-3 justify-center items-center w-full">
-      {data.general.map((data, i) => (
-        <InfoBox key={i + 'ny'} data={data} />
-      ))}
-      <Section
-        title="More on NYSERDA Energy Savings Programs for Consumers:"
-        array={data.nyserda}
-        section="nyserda"
-        isSubSection
-      />
+      {props.children}
     </div>
   );
 
@@ -28,7 +20,7 @@ const DropdownSection = ({ title, data }) => {
       >
         <span className="flex items-center">
           <h3 className="font-archivo-eb text-secondary-green text-lg">
-            {title}
+            {props.title}
           </h3>
           <img className="h-4 w-4 ml-1" src={isOpen ? angleup : angledown} />
         </span>
