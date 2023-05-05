@@ -25,7 +25,7 @@ const DropdownSection = (props) => {
           <img className="h-4 w-4 ml-1" src={isOpen ? angleup : angledown} />
         </span>
         {!isOpen && (
-          <p className="font-archivo-li text-secondary-green">
+          <p className="font-archivo-li text-secondary-green text-md md:text-lg">
             Click to expand
           </p>
         )}
