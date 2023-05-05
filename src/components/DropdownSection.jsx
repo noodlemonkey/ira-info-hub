@@ -4,11 +4,11 @@ import InfoBox from './InfoBox';
 import angledown from '../assets/angle-down.svg';
 import angleup from '../assets/angle-up.svg';
 
-const DropdownSection = (props) => {
+const DropdownSection = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toRender = (
     <div className="flex flex-col gap-3 justify-center items-center w-full">
-      {props.children}
+      {children}
     </div>
   );
 
@@ -20,7 +20,7 @@ const DropdownSection = (props) => {
       >
         <span className="flex items-center">
           <h3 className="font-archivo-eb text-secondary-green text-lg">
-            {props.title}
+            {title}
           </h3>
           <img className="h-4 w-4 ml-1" src={isOpen ? angleup : angledown} />
         </span>
