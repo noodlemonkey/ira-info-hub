@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Section from './components/Section';
-import InfoBox from './components/InfoBox';
+import DropdownSection from './components/DropdownSection';
 import guideData from './guide-data';
 import nyResources from './ny-resources';
 import referenceData from './reference-data';
@@ -18,7 +18,8 @@ const App = () => {
             isSubSection={false}
           />
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
-          <Section
+          <DropdownSection title="New York Resources " data={nyResources} />
+          {/* <Section
             title="New York Resources:"
             array={nyResources.general}
             section="ny"
@@ -29,7 +30,7 @@ const App = () => {
             array={nyResources.nyserda}
             section="nyserda"
             isSubSection
-          />
+          /> */}
           <hr className="w-[80%] mt-6 border-t border-solid border-quaternary-green" />
           <Section
             title="Further Reference:"
